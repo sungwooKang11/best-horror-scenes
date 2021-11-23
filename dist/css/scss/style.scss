@@ -1,10 +1,12 @@
+@import "varies";
+
 .body {
     height: 100vh;
 }
 
 .header {
     
-    background-color: #f0eff0;
+    background-color: $white;
     width: 30%;
     height: 100%;
 
