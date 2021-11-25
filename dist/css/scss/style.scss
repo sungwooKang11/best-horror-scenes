@@ -1,4 +1,5 @@
 @import "varies";
+@import "reset";
 
 .body {
     height: 100vh;
@@ -9,5 +10,13 @@
     background-color: $white;
     width: 30%;
     height: 100%;
-
 }
+
+.h1 {
+    display: flex;
+    color: red;
+    font-size: 55px;
+}
+
+
+
