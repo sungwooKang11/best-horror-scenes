@@ -1,22 +1,27 @@
 @import "varies";
 @import "reset";
 
-.body {
+* {
+    box-sizing: border-box;
+}
+
+
+body {
     height: 100vh;
 }
 
-.header {
+header {
     
     background-color: $white;
     width: 30%;
     height: 100%;
+    padding: 75px;
+    h1 {
+        color: red;
+        font-size: 55px;
+    }
 }
 
-.h1 {
-    display: flex;
-    color: red;
-    font-size: 55px;
-}
 
 
 
