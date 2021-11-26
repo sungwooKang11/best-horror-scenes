@@ -117,15 +117,19 @@ table {
 }
 
 body {
+  margin: 0px;
   height: 100vh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
   background-color: #f0eff0;
-  width: 30%;
+  width: 33%;
   height: 100%;
-  padding: 75px;
+  padding: 10vh 40px 50px 55px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -136,15 +140,59 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  color: #E7473C;
 }
 
 header h1 {
-  color: #E7473C;
   font-size: 75px;
   width: 50%;
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 header h2 {
-  font-size: 30px;
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+header h3,
+header ul {
+  line-height: 1.2;
+  width: 88.5%;
+  text-align: justify;
+  margin-bottom: 40px;
+  padding: 0px;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 300;
+  font-size: 14px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+header nav ul li {
+  cursor: pointer;
+  margin-right: 8px;
+  color: black;
+  opacity: 0.5;
+  padding-bottom: 2px;
+  border-bottom: 1px solid black;
+  margin-bottom: 30px;
+}
+
+header nav ul li:hover {
+  opacity: 1;
+}
+
+main {
+  height: 500vh;
 }
 /*# sourceMappingURL=style.css.map */
