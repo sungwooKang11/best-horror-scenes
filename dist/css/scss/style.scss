@@ -5,20 +5,26 @@
     box-sizing: border-box;
 }
 
-
 body {
     height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
-    
     background-color: $white;
     width: 30%;
     height: 100%;
-    padding: 75px;
+    padding:75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     h1 {
-        color: red;
-        font-size: 55px;
+        color: $red;
+        font-size: 75px;
+        width: 50%;
+    }
+    h2 {
+        font-size: 30px;
     }
 }
 
