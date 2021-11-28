@@ -194,13 +194,53 @@ header nav ul li:hover {
 }
 
 main {
-  height: 500vh;
-  background-color: #E7473C;
+  height: 900vh;
   margin-left: 33%;
 }
 
 main .movie {
-  height: 100vh;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, rgba(0, 0, 0, 0.1)), color-stop(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0))) #E7473C;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1) 10%, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)) #E7473C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+main .movie .movie_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .movie .movie_header h4 {
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+main .movie .movie_header h5 {
+  letter-spacing: 2px;
+}
+
+main .movie img {
+  width: 100%;
+  -webkit-box-shadow: 0 80px 80px -80px #000, 0 0 12px rgba(0, 0, 0, 0.06), inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 80px 80px -80px #000, 0 0 12px rgba(0, 0, 0, 0.06), inset 0 0 0 1px rgba(0, 0, 0, 0.2);
 }
 /*# sourceMappingURL=style.css.map */
